@@ -2,7 +2,16 @@ import time
 import pyautogui
 from pynput.mouse import Listener
 
-timeoutInterval = 10
+try: 
+    print()
+    timeoutInterval = float(input('Enter the interval between movements in minutes (Ex: 5.5): ')) * 60
+    print()
+except ValueError:
+    print()
+    print('That wasn\'t a number you dongus. Please cooporate next time')
+    print()
+    exit()
+
 timeRemaining = timeoutInterval
 
 def resetTimer():
