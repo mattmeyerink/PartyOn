@@ -1,3 +1,10 @@
+"""
+Gets a timeout interval in minutes from the user.
+Listens for user activity in the form of mouse movement, scrolling, or clicking.
+Any movement resets the countdown to the specified timeout interval.
+If the countdown expires the mouse moves diagonally for 2 seconds which resets the timer.
+"""
+
 import time
 import pyautogui
 from pynput.mouse import Listener

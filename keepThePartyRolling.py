@@ -1,9 +1,10 @@
-import pyautogui
-import time
-
 """
 Move the mouse in a clockwise square continuously in 1 second movements every 30 seconds.
 """
+
+import pyautogui
+import time
+
 def keepThePartyRolling():
     printIntroMessage()
 
