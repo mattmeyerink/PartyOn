@@ -16,6 +16,10 @@ except ValueError:
     print()
     exit()
 
+print()
+print('The party is officially on!')
+print()
+
 try: 
     while True:
         pyautogui.move(1, 1)
