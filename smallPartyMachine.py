@@ -19,6 +19,8 @@ except ValueError:
 print()
 print('The party is officially on!')
 print()
+print('Command + C to quit')
+print()
 
 try: 
     while True:
